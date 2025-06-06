@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.recipesuggester.com</title>
+           <link rel="stylesheet" href="recipe.css">
+           
+    </head>
+    <body>
+        <div id="title">
+            <p>RECIPE SUGGESTER</p>
+        </div>
+        <hr>
+        <div id="nav">
+           <a id="logo" href="main.html">HOME</a>
+           <a id="feedback" href="feedbackform.html">FEEDBACK</a>
+           <a id="option1" href="about.html">ABOUT</a> 
+        </div>
+        <hr>
+        <div class="banner">
+        <div class="slider">
+            
+    
+        </div>
+      
+        </div>    
+        <div>
+            <input type="text" placeholder="Enter Ingredients" id="input-el">
+        </div>
+        <div id="option">
+            <div class="select-options">
+            <select
+            id="language">
+                <option value="">DEFAULT LANGUAGE</option>
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+            </select>
+            <select id="region">
+                <option value="">DEFAULT REGION</option>
+                <option value="North India">North India</option>
+                <option value="West India">West India</option>
+                <option value="East India">East India</option>
+                <option value="South India">South India</option>
+            </select>
+            </div>
+        </div>
+        <div id="searchBtn">
+            <button id="search-btn" onclick="search()">Search</button>
+        </div>
+        <hr>
+        <section class="result">
+        <div>
+            <p id="diplayrecipe">RESULT:(Set default region to get better result.)</p>
+        </div>
+        </section>
+        <script src="recipe.js"></script>
+    </body>
+</html>

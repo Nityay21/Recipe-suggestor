@@ -1,0 +1,40 @@
+#title{
+margin-top: 20px;
+font-size: 50px;
+display: block;
+text-align: center;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;  
+    font-weight: bold; 
+}
+#intro-Head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.dev-Img{
+    margin-top: 20;
+height: 150px;
+width: 150px;
+border-radius: 100%;
+}
+#dev-Info{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.dev-Img:hover{
+    scale: 1.5;
+}
+.name{
+    margin-top: 50px;
+    font-size: 20;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,63 @@
+#title{
+    margin-top: 20px;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    }
+#nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;   
+}
+#fyr-btn{
+margin-top: 10px;
+    padding-top: 1px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    transition-duration: 1ms;
+    border-color: #4caf50;
+}
+#fyr-btn:hover{
+    background-color: #4caf50;
+    color:white
+
+}
+
+.fyr{
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    border:solid black 1px;
+    height: 450px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-image: url("banner2.avif");
+    background-size: 100% 100%;
+     animation: slide 15s linear infinite;
+     
+ }
+ @keyframes slide{
+ 
+     0%{
+         background-image: url("banner1.avif");
+     }
+     25%{
+         background-image: url("banner2.avif");
+     }
+     50%{
+         background-image: url("banner3.avif");
+     }
+     75%{
+         background-image: url("banner4.avif");
+     }
+     100%{
+         background-image: url("food1.jpg");
+     }
+ }

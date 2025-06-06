@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>www.recipesuggester.com</title>
+    </head>
+    <body>
+        <section id="content">
+            <section id="form">
+            <h1>Feedback</h1>
+            <p id="line">We value your feedback:</p>
+            <p id="name"> <a class="bold">Name</a> : <input type="text" placeholder="Enter full name" id="nameInput" value=""></p>
+            <p id="email"> <a class="bold">Email</a>: <input type="text" placeholder="Enter email address" id="emailInput" value=""></p>      
+            <p id="feedback"><a class="bold">Feedback</a> :<input type="text"  placeholder="Enter feedback" class="textarea" id="feebackText" value=""></p>
+            <p class="bold">Rating:</p>
+            <div class="Stars-options">
+               <select id="Starsrating" class="star-select">
+                <option value="★★★★★">5 Star Excelent</option>
+                <option value="★★★★">4 Stars Best</option>
+                <option value="★★★">3 Stars Good</option>
+                <option value="★★">2 Stars Better</option>
+                <option value="★">1 Stars Bad</option>
+               </select>
+            </div>     
+            <p><button id="submit-btn" onclick="submit()">Submit</button></p>
+            
+            </section>
+            <hr>
+            <section id="displayReview">
+                <p class="bold">***REVIEW***</p>
+                <div id="reviews">
+                <hr>
+                <p id="review-list">
+                    <p><a class="bold">Name</a> : Aditya kawade </p>
+                    <p><a class="bold">Feedback</a> : Best website!</p>
+                    <p><a class="bold">Rating</a> : <a class="gold">★★★★★</a></p>
+                    <hr>
+                    <p><a class="bold">Name</a> : Virat kohli</p>
+                    <p><a class="bold">Feedback</a> : I loved this website even anushka loved it!</p>
+                    <p><a class="bold">Rating</a> : <a class="gold">★★★★★</a></p>
+                </p>
+                <hr>
+                </div>
+                <script src="feedback.js"></script>
+            </section>
+        </section>
+    <style>
+        #title{
+            margin-top: 20px;
+            font-size: 50px;
+            display: block;
+            text-align: center;
+            }
+
+        #summit-btn{
+        height: 30;
+        background-color: aliceblue;
+        transition-duration: 1ms; 
+        cursor: pointer;   
+    }
+        #summit-btn:hover{
+        background-color: rgb(152, 192, 209);
+        }
+
+#line{
+    font-size: 25px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 50px;
+}
+
+body{
+    background-color: rgb(152, 192, 209);
+
+}
+#form{
+    background-color: aliceblue;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#name{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+}
+#email{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+}
+#feedback{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+#content{
+    
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+ 
+ 
+}
+.gold{
+    color: gold;
+}
+.bold{
+    font-weight: bolder;
+}
+
+    </style>
+    <script src="feedback.js"></script>
+    </body>
+</html>
